@@ -132,6 +132,9 @@ main > section{
     font-weight: 600;
     margin-top: 10px;
 }
+.fact-discription{
+    max-width: 540px;
+}
 
 
 
@@ -141,8 +144,11 @@ main > section{
     .navbar, .nav-link, .teams{
         flex-direction: column;
     }
-    .team-img-container{
+    .team-img-container, .facts-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .facts-container{
+        justify-items: center;
     }
     .our-features{
         margin-left: 20px;
